@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/configure_Pref"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurepreferences"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/retAsignListFrmServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrive Assignment List From Server"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/manageAsignments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Assignments"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
